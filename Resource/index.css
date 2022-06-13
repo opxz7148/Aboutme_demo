@@ -1,31 +1,40 @@
 html{
     background-color: #112031;
     font-family: monospace;
-    padding:50px 100px;
+    padding:50px 50px;
     color: white;
 }
 
-header{
-    
+header{ 
     color: #82DBD8;
-    text-align: left;
-    
+    text-align: left; 
     font-size: large;
 }
 
 .topbar{
     background-color: #2F8F9D;
     text-align: center;
-    padding: 25px;
     position: sticky;
-    top: 20px;
     z-index: 10;
-    height: 50%;
+    height: 100px;
+    vertical-align: center;
+    padding: 10px;
+    top: 10px;
 }
 
 .top-menu{
-    padding: 50px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 50px;
+    
 }
+
+.top-menu:hover{
+    background-color: #1c5f69;
+    cursor: pointer;
+}
+
+
 
 h1{
     font-size: 40px;
